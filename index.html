@@ -12,26 +12,32 @@
     <h1 id="title">Survey Form</h1>
     <p id="description">Let's us know your music taste.</p>
     <form id="survey-form">
+
       <div>
         <label label="name-label" for="name">Name</label>
         <input type="text" name="name" id="name" placeholder="Your Name">
       </div>
+
       <div>
         <label label="email-label" for="email">Email</label>
         <input type="email" name="email" id="email" placeholder="Your Email">
       </div>
+
       <div>
         <label label="number-label" for="age">Age</label>
         <input type="number" name="number" id="number" min="13" max="100" placeholder="Your Age">
       </div>
+
       <div>
         <label for="genre">What's your favourite genre?</label>
         <select name="genre" id="dropdown">
+          <option selected disabled>Select an option</option>
           <option value="Rock">Rock</option>
           <option value="Rock">Post-Punk</option>
           <option value="Rock">Ambient</option>
         </select>
       </div>
+
     </form>
   </div>
 </body>
