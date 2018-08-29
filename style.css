@@ -79,7 +79,9 @@ Typography
 #number-label,
 #gender-label,
 #additional,
-#gender-op {
+#gender-op,
+#hours-label,
+#genre-label {
   font-size: 1.25rem;
 }
 
