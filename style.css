@@ -19,6 +19,10 @@ form {
   margin: 20px 0;
 }
 
+label {
+  font-weight: bold;
+}
+
 input[type="text"],
 input[type="email"],
 input[type="number"] {
@@ -68,6 +72,5 @@ Typography
 #name-label,
 #email-label,
 #number-label {
-  font-weight: bold;
   font-size: 1.25rem;
 }
