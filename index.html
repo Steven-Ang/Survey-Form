@@ -9,24 +9,26 @@
   <title>Survey Form</title>
 </head>
 <body>
+  <h1 id="title">Survey Form</h1>
   <div class="container">
-    <h1 id="title">Survey Form</h1>
-    <p id="description">Let's us know your music taste.</p>
+    <p id="description">Let's us know your music taste</p>
     <form id="survey-form">
 
-      <div>
-        <label label="name-label" for="name">Name</label>
-        <input type="text" name="name" id="name" placeholder="Your Name">
+      <div class="row">
+        <div class="col-md-6">
+          <p><label id="name-label" for="name">Name</label></p>
+          <input type="text" name="name" id="name" placeholder="Your Name" autocomplete="off" required>
+        </div>
+  
+        <div class="col-md-6">
+          <p><label id="email-label" for="email">Email</label></p>
+          <input type="email" name="email" id="email" placeholder="Your Email" autocomplete="off" required>
+        </div>
       </div>
 
       <div>
-        <label label="email-label" for="email">Email</label>
-        <input type="email" name="email" id="email" placeholder="Your Email">
-      </div>
-
-      <div>
-        <label label="number-label" for="age">Age</label>
-        <input type="number" name="number" id="number" min="13" max="100" placeholder="Your Age">
+        <label id="number-label" for="age">Age</label>
+        <input type="number" name="number" id="number" min="13" max="100" placeholder="Your Age" autocomplete="off" required>
       </div>
 
       <div>

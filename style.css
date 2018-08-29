@@ -1,8 +1,68 @@
-.container {
-  width: 80%;
-  margin: 0 auto;
+/* =======================
+GENERAL
+======================= */
+
+* {
+  box-sizing: border-box;
+  outline: none;
 }
 
-#title {
+body {
+  background-color: lightgoldenrodyellow;
+}
+
+p {
+  margin: 0;
+}
+
+form {
+  margin: 20px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid mediumturquoise;
+  font-size: 1.50rem;
+  transition: all 1s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="text"]:valid,
+input[type="email"]:valid,
+input[type="number"]:valid {
+  border-bottom: 2px solid #0f52ba;
+}
+
+/* =======================
+Layout
+======================= */
+
+.container {
+  background-color: #fff;
+}
+
+/* =======================
+Typography
+======================= */
+
+#title,
+#description {
   text-align: center;
+}
+
+#description {
+  font-size: 1.75rem;
+  font-weight: bold;
+  padding: 15px;
+}
+
+#name-label,
+#email-label,
+#number-label {
+  font-size: 1.25rem;
 }
