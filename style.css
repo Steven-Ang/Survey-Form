@@ -1,5 +1,5 @@
 /* =======================
-GENERAL
+          GENERAL
 ======================= */
 
 * {
@@ -48,7 +48,7 @@ textarea {
 }
 
 /* =======================
-Layout
+          Layout
 ======================= */
 
 .container {
@@ -67,7 +67,7 @@ Layout
 }
 
 /* =======================
-Typography
+        Typography
 ======================= */
 
 #title,
@@ -78,7 +78,8 @@ Typography
 #description {
   font-size: 1.75rem;
   font-weight: bold;
-  padding: 15px;
+  padding-top: 10px;
+  margin-bottom: 10px;
 }
 
 #name-label,
