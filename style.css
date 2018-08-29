@@ -76,11 +76,17 @@ Typography
 
 #name-label,
 #email-label,
-#number-label {
+#number-label,
+#gender-label,
+#additional,
+#gender-op {
   font-size: 1.25rem;
 }
 
 #additional {
   margin: 10px 0;
+}
+
+.gender-op span {
   font-size: 1.25rem;
 }
