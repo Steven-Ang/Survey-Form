@@ -55,7 +55,14 @@ Layout
   background-color: #fff;
 }
 
-#number-div {
+#name-div,
+#email-div,
+#genre-div {
+  margin: 10px 0;
+}
+
+#number-div,
+#hours-div {
   margin: 20px 0;
 }
 
