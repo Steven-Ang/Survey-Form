@@ -24,7 +24,7 @@ input[type="email"],
 input[type="number"] {
   width: 100%;
   border: none;
-  border-bottom: 2px solid mediumturquoise;
+  border-bottom: 2px solid #ddd;
   font-size: 1.50rem;
   transition: all 1s ease;
 }
@@ -35,7 +35,7 @@ input[type="number"]:focus,
 input[type="text"]:valid,
 input[type="email"]:valid,
 input[type="number"]:valid {
-  border-bottom: 2px solid #0f52ba;
+  border-bottom: 2px solid mediumturquoise;
 }
 
 /* =======================
@@ -44,6 +44,10 @@ Layout
 
 .container {
   background-color: #fff;
+}
+
+#number-div {
+  margin: 20px 0;
 }
 
 /* =======================
@@ -64,5 +68,6 @@ Typography
 #name-label,
 #email-label,
 #number-label {
+  font-weight: bold;
   font-size: 1.25rem;
 }
